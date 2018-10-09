@@ -1,0 +1,261 @@
+body{
+  
+}
+
+a{
+    text-decoration: none;    
+}
+
+nav{
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 35px;
+    width: 1300px;
+    margin: 0 auto;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+
+  .top-left  {
+    padding-left: 10px;
+    float: left; 
+  }
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+header {
+    width: 1300px;
+    margin: 0 auto;
+    color: white;
+    background-image: url("images/city-scape.svg");          
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.header-head{
+    position: absolute;
+    left: 0%;
+    top: 0%;   
+    width: 100%;    
+}
+
+.header-head-logo{
+    float: left;
+    width: 8%;   
+    padding: 1%;
+}
+
+.header-head-box{
+    float: left;
+    width: 73%;   
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.header-head-search{
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.header-head-box2{
+    margin-top: 5px;
+    float: right;
+    width: 15%;     
+}
+
+.header-head-text{ 
+    float: left;
+    padding-left: 12%;
+}
+
+.header-head-logo2{    
+    width: 53px;
+    float: right;
+}
+
+.hearder-body{
+    font-size: 18px; 
+    position: absolute;
+    left: 23%;
+    top: 15%;   
+    width: 22%;   
+}
+
+header a{    
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;    
+    display: block;
+    width: 150px;    
+    padding: 9px 15px; 
+    border-radius: 15px;   
+    color: white;   
+    background-color: rgb(240, 146, 51);
+}
+
+
+.header-body-text{
+    font-size: 45px; 
+}
+
+
+#first-section {  
+    width: 1300px;
+    margin: 0 auto;
+    padding: 75px 0;     
+    color: white;
+    background-color: rgb(39, 53, 71); 
+    border-color: black;   
+}
+
+#first-section a{
+    color: white;    
+}
+
+.first-section-button{
+     background-color: rgb(203, 56, 55);
+     letter-spacing: 0.5px;
+     text-align: center;
+     text-decoration: none;    
+     display: block;
+     width: 150px;    
+     padding: 9px 15px; 
+     border-radius: 15px;   
+     margin-bottom: 5px;    
+}
+
+.collaboration-img{
+    height: 375px;
+    width: 35%;
+    float: left;
+    padding-left: 180px;
+    padding-right: 80px;  
+  }
+
+.first-section-texts{
+    font-size: 18px;
+    text-align: left;   
+    line-height: 0.9;
+}
+
+.first-section-links{
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.first-section-header{
+   font-size: 40px;   
+   padding-left: 25px;
+   padding-bottom: 0;
+}
+
+.first-section-header p{
+    margin-bottom: 0;
+}
+
+.first-section-links p{
+    margin: 0;
+}
+
+#second-section {  
+    width: 1300px;
+    margin: 0 auto;    
+    background-image: url("images/forklift.svg");    
+    color: white;      
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    height: 450px;
+    padding-top: 50px;
+    position: relative;
+}
+
+#second-section a{
+    color: white;   
+    background-color: rgb(49, 68, 88);   
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;    
+    display: block;
+    width: 150px;    
+    padding: 9px 15px; 
+    border-radius: 15px;   
+}
+
+.second-section-box{
+    font-size: 18px; 
+    position: absolute;
+    left: 13%;
+    top: 10%;   
+    width: 25%;
+}
+
+.second-section-header{
+    font-size: 40px; 
+}
+
+#third-section {  
+    width: 1300px;
+    margin: 0 auto;
+    padding: 75px 0; 
+    background-color: white;
+    text-align: center;
+}
+
+#third-section p {  
+    color: rgb(135, 145, 156);
+}
+
+#third-section h2, h4 {  
+    color: rgb(83, 88, 98);
+   }
+
+#third-section a {  
+    color: rgb(208, 74, 73);
+   }  
+
+.third-section-content{
+    width: 60%; 
+    margin: 0 auto;
+}
+
+.col{ 
+    float: left; 
+  }
+  
+.col-3{ 
+    width: 30%;    
+  }
+
+.col-2{ 
+    width: 40%;      
+  }
+
+.col-middle{
+    margin-left: 5%;
+    margin-right: 5%;
+  } 
+
+.clearfix{
+    clear: both; 
+  }
